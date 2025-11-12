@@ -1,93 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Patitas Occi - En Mantenimiento</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Raleway', sans-serif;
-        }
-        body {
-            background-color: #fffdf8;
-            color: #333;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-height: 100vh;
-        }
-        h2 {
-            font-size: 2.2em;
-            color: #ff914d;
-            margin-bottom: 10px;
-            letter-spacing: 1px;
-        }
-        p {
-            font-size: 1.1em;
-            color: #555;
-            margin-bottom: 25px;
-        }
-        .email input[type="email"] {
-            padding: 10px;
-            width: 250px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            outline: none;
-        }
-        .email input[type="submit"] {
-            padding: 10px 20px;
-            border: none;
-            background-color: #ff914d;
-            color: white;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        .email input[type="submit"]:hover {
-            background-color: #ff7b00;
-        }
-        .social {
-            margin-top: 40px;
-        }
-        .social a {
-            color: #ff914d;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: 600;
-        }
-        .social a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            margin-top: 60px;
-            color: #999;
-            font-size: 0.9em;
-        }
-    </style>
-</head>
-<body>
-    <div class="coming">
-        <h2>Patitas Occi</h2>
-        <p>Estamos realizando mejoras en nuestro sitio web.</p>
-        <p>Pronto estaremos de vuelta para seguir promoviendo la adopción responsable.</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coming Soon Moring</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jquery.countdown.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="coming">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Estamos en Mantenimiento</h2>
+              <p>Volveremos pronto.....</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="countdown"></div>
+      <div class="email">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Se notificado cuando estemos listo</p>
+              <input type="email" placeholder="email adress...." />
+              <input type="submit" value="Go" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social-icon">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="icon">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="email">
-        <p>Recibe una notificación cuando volvamos:</p>
-        <input type="email" placeholder="correo electrónico">
-        <input type="submit" value="Enviar">
-    </div>
-
-    <div class="social">
-        <p>Síguenos en <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
-    </div>
-
-    <footer>
-        © 2025 Patitas Occi - San Ramón, Alajuela
-    </footer>
-</body>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/active.js"></script>
+  </body>
 </html>
